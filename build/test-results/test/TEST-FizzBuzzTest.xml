@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-06-15T12:57:04" hostname="LAPTOP-8TLEA6AN" time="0.008">
+<testsuite name="FizzBuzzTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-06-15T13:08:20" hostname="LAPTOP-8TLEA6AN" time="0.009">
   <properties/>
-  <testcase name="should_return_1_when_fizzbuzz_given_1" classname="FizzBuzzTest" time="0.008"/>
+  <testcase name="should_return_whizz_when_fizzbuzz_given_7" classname="FizzBuzzTest" time="0.007"/>
+  <testcase name="should_return_1_when_fizzbuzz_given_1" classname="FizzBuzzTest" time="0.0"/>
   <testcase name="should_return_fizz_when_fizzbuzz_given_3" classname="FizzBuzzTest" time="0.0"/>
   <testcase name="should_return_fizz_when_fizzbuzz_given_5" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="should_return_fizz_when_fizzbuss_given_30" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="should_return_fizz_when_fizzbuss_given_35" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="should_return_fizzbuss_when_fizzbuss_given_15" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="should_return_fizzwhizz_when_fizzbuss_given_21" classname="FizzBuzzTest" time="0.0"/>
+  <testcase name="should_return_fizzbusswhizz_when_fizzbuss_given_105" classname="FizzBuzzTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

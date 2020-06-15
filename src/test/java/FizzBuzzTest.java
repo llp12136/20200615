@@ -28,7 +28,7 @@ import static org.junit.Assert.assertThat;
       String word = fizzBuss.fizzBuzzGame(number);
 
       //Then
-      assertThat(word, is("Fizz"));
+      assertThat(word, is("fizz"));
     }
 
     @Test
@@ -41,6 +41,83 @@ import static org.junit.Assert.assertThat;
       String word = fizzBuss.fizzBuzzGame(number);
 
       //Then
-      assertThat(word, is("Buzz"));
+      assertThat(word, is("buzz"));
+    }
+    @Test
+    public void should_return_whizz_when_fizzbuzz_given_7(){
+      //Give
+      int number = 7;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("whizz"));
+    }
+
+    @Test
+    public void should_return_fizzbuss_when_fizzbuss_given_15(){
+      //Give
+      int number = 15;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("fizzbuzz"));
+    }
+
+    @Test
+    public void should_return_fizzwhizz_when_fizzbuss_given_21(){
+      //Give
+      int number = 21;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("fizzwhizz"));
+    }
+
+    @Test
+    public void should_return_fizz_when_fizzbuss_given_35(){
+      //Give
+      int number = 35;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("fizz"));
+    }
+
+    @Test
+    public void should_return_fizzbusswhizz_when_fizzbuss_given_105(){
+      //Give
+      int number = 105;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("fizzbuzzwhizz"));
+    }
+
+    @Test
+    public void should_return_fizz_when_fizzbuss_given_30(){
+      //Give
+      int number = 30;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("fizz"));
     }
 }
