@@ -30,4 +30,17 @@ import static org.junit.Assert.assertThat;
       //Then
       assertThat(word, is("Fizz"));
     }
+
+    @Test
+    public void should_return_fizz_when_fizzbuzz_given_5(){
+      //Give
+      int number = 5;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("Buzz"));
+    }
 }
