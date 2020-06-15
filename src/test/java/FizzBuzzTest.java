@@ -12,9 +12,22 @@ import static org.junit.Assert.assertThat;
       FizzBuzz fizzBuzz = new FizzBuzz();
 
       //When
-      int word = fizzBuzz.fizzBuzzGame(number);
+      String word = fizzBuzz.fizzBuzzGame(number);
 
       //Then
       assertThat(word, is("1"));
+    }
+
+    @Test
+    public void should_return_fizz_when_fizzbuzz_given_3(){
+      //Give
+      int number = 3;
+      FizzBuzz fizzBuss = new FizzBuzz();
+
+      //When
+      String word = fizzBuss.fizzBuzzGame(number);
+
+      //Then
+      assertThat(word, is("Fizz"));
     }
 }

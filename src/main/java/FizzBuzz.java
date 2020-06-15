@@ -1,9 +1,9 @@
 public class FizzBuzz {
-    public int fizzBuzzGame(int number) {
+    public String fizzBuzzGame(int number) {
 
-    if(number == 1){
-        return number;
-    }
-    return number;
+        if (number % 3 == 0) {
+            return "Fizz";
+        }
+    return String.valueOf(number);
     }
 }
