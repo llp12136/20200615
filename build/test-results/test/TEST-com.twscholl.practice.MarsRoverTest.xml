@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.twscholl.practice.MarsRoverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-16T02:51:53" hostname="LAPTOP-8TLEA6AN" time="0.008">
+  <properties/>
+  <testcase name="should_return_vocation_00N_when_order_M_given_01N" classname="com.twscholl.practice.MarsRoverTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
