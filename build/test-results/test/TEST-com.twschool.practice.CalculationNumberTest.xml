@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.twschool.practice.CalculationNumberTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-16T13:09:30" hostname="LAPTOP-8TLEA6AN" time="0.008">
+  <properties/>
+  <testcase name="should_return_0A2B_when_getPromptByCalculation_answer_is_1234_and_input_is_8429" classname="com.twschool.practice.CalculationNumberTest" time="0.008"/>
+  <testcase name="should_return_0A0B_when_getPromptByCalculation_answer_is_1234_and_input_is_5678" classname="com.twschool.practice.CalculationNumberTest" time="0.0"/>
+  <testcase name="should_return_1A2B_when_getPromptByCalculation_answer_is_1234_and_input_is_1429" classname="com.twschool.practice.CalculationNumberTest" time="0.0"/>
+  <testcase name="should_return_4A0B_when_getPromptByCalculation_answer_is_1234_and_input_is_1234" classname="com.twschool.practice.CalculationNumberTest" time="0.0"/>
+  <testcase name="should_return_array_when_getInputNumberArray_given_string" classname="com.twschool.practice.CalculationNumberTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
