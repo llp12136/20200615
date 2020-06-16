@@ -23,5 +23,40 @@ public class MarsRover {
         }
         return marsRoverCoordinate;
     }
-
+    public MarsRoverCoordinate TurnLeft(MarsRoverCoordinate marsRoverCoordinate) {
+        String currentDirection = marsRoverCoordinate.getDirection();
+        switch (currentDirection) {
+            case "N":
+                marsRoverCoordinate.setDirection("W");
+                break;
+            case "E":
+                marsRoverCoordinate.setDirection("N");
+                break;
+            case "S":
+                marsRoverCoordinate.setDirection("E");
+                break;
+            case "W":
+                marsRoverCoordinate.setDirection("S");
+                break;
+        }
+        return marsRoverCoordinate;
+    }
+    public MarsRoverCoordinate TurnRight(MarsRoverCoordinate marsRoverCoordinate){
+        String currentDirection = marsRoverCoordinate.getDirection();
+        switch (currentDirection) {
+            case "N":
+                marsRoverCoordinate.setDirection("E");
+                break;
+            case "E":
+                marsRoverCoordinate.setDirection("S");
+                break;
+            case "S":
+                marsRoverCoordinate.setDirection("W");
+                break;
+            case "W":
+                marsRoverCoordinate.setDirection("N");
+                break;
+        }
+        return marsRoverCoordinate;
+    }
 }
